@@ -226,8 +226,8 @@ def processRequest(req):
 
 
 def configureDataBase():
-    client = MongoClient("mongodb+srv://username:passwrod@cluster0-replace with you URL.mongodb.net/test?retryWrites=true&w=majority")
-    return client.get_database('covid19DB')
+    client = MongoClient("mongodb+srv://covid19chatbot:Covid19ChatPass@cluster0-ubgdy.mongodb.net/<dbname>?retryWrites=true&w=majority")
+    return client.get_database('covidchatdb')
 
 
 def makeAPIRequest(query):
@@ -247,7 +247,7 @@ def prepareEmail(contact_list):
     mailclient.sendEmail(contact_list)
 
 
-if __name__ == '__main__':
+ if __name__ == '__main__':
     port = int(os.getenv('PORT'))
     print("Starting app on port %d" % port)
     app.run(debug=False, port=port, host='0.0.0.0')
