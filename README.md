@@ -1,8 +1,8 @@
 
 
 # End to End COVID19 ChatBot through utilization of DialogFlow, Python/Flask, MongoDb Atlas, and deployed on Pivotal Cloud foundary and Telegram.
-For further search: On Telegram app go to @Covid19ChatBot 
-This chatbot can give answers of all of your queries related to the CoronaVirus.
+For live bot interaction: On Telegram app message @COVID19_HelpChatBot 
+This chatbot can give answers of all of your questions related to the CoronaVirus.
 
 
 
