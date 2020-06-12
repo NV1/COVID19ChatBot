@@ -4,6 +4,8 @@
 For live bot interaction: On Telegram app message @COVID19_HelpChatBot 
 This chatbot can give answers of all of your questions related to the CoronaVirus.
 
+COVID19 ChatBot hosted on Telegram demo:
+https://www.youtube.com/watch?v=2_-NSXTfVW8
 
 
 The extent to which the ChatBot may perform based on user command 
